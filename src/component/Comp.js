@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Comp = () => {
+const Comp = ({bgColor}) => {
   return (
-    <div className='flex justify-center items-center flex-col bg-[#E1EDE7] p-4 rounded-md relative'>
+    <div className={`flex justify-center items-center flex-col bg-[${bgColor}] p-4 rounded-md relative pb-[2.5rem]`}>
     <h2 className='text-black font-bold font-poppins py-8 text-center'>
         Membership <br/>
         Business Membership
@@ -15,7 +15,7 @@ const Comp = () => {
 solutions makes us the most prolific <br/>
 service provider.
     </h2>
-    <div className='absolute bottom-0 p-2'>
+    <div className='absolute bottom-[-2rem]'>
                             <img src='div.elementor-icon.png' style={{width :"4rem"}}/>
                         </div>
 
