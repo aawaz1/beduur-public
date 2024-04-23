@@ -78,19 +78,19 @@ const Home = () => {
             </div>
 
             <div className='m-[auto] w-[80%]  p-2 flex'>
-                <div className='bg-gradient-to-b from-custom-blue to-black w-[15%] flex flex-col-reverse h-[20rem] min-h-[20rem]'>
+                <div className='bg-gradient-to-b from-custom-blue to-black w-[18%] flex flex-col-reverse md:h-[20rem] min-h-[20rem]'>
                     <div>
                         <div className='flex justify-end px-6'><h1 className='text-white  text-md'>TESTIMONAL</h1></div>
-                        <h1 className='text-white  text-md'>Our Happy Customers</h1>
+                        <h1 className='text-white px-6 justify-end flex py-2 font-semibold  text-sm'>Our Happy Customers</h1>
                     </div>
                 </div>
-                <div className=' w-[80%] flex px-2'>
+                <div className=' w-[80%] flex justify-end items-end px-2'>
                     <div className='flex justify-start'>
                         <h1 className='text-gray-300 text-[10rem]'>❝</h1>
 
                     </div>
                     <div>
-                        <h1 className='text-gray-300 text-[1.5rem] font-mono'>On the other hand, we denounce with rteous
+                        <h1 className='text-gray-300 text-[1.5rem] font-georgia p-1'>On the other hand, we denounce with rteous
                             indignation adislike men who are so beguiled demord
                             by denounce with coffee</h1>
                         <div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Comp = ({bgColor}) => {
   return (
-    <div className={`flex justify-center items-center flex-col bg-[${bgColor}] p-4 rounded-md relative pb-[2.5rem]`}>
+    <div style={{backgroundColor : `${bgColor}`}} className={`flex justify-center items-center flex-col bg-[${bgColor}] p-4 rounded-md relative pb-[2.5rem]`}>
     <h2 className='text-black font-bold font-poppins py-8 text-center'>
         Membership <br/>
         Business Membership

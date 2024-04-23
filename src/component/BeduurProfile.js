@@ -2,12 +2,12 @@ import React from 'react'
 
 const BeduurProfile = ({ title1, title, title2, color, title3 }) => {
     return (
-        <div className='flex justify-between'>
+        <div className='flex flex-col md:flex-row justify-between'>
 
-            <div class="bg-gradient-to-r from-{color} to-white w-[100%] flex justify-center items-center ">
+            <div class={`bg-gradient-to-r from-${color} to-white md:w-[100%] flex  justify-center items-center `}>
                 <div className='flex p-2 flex-col  gap-4'>
-                    {title1 ? <h1 className='text-white text-2xl'>{title1}</h1> : null}
-                    {title2 ? <h1 className='text-white font-semibold text-6xl'>{title2}</h1> : null}
+                    {title1 ? <h1 className='text-white  text-md md:text-2xl'>{title1}</h1> : null}
+                    {title2 ? <h1 className='text-white font-semibold text-xl md:text-6xl'>{title2}</h1> : null}
                     {title3 ? <h1 className='text-white font-light text-sm font-poppins'>{title3}</h1> : null}
                 </div>
 
