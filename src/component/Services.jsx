@@ -7,11 +7,7 @@ import Footer from './Footer'
 const Services = () => {
   return (
     <div className='p-2 flex flex-col gap-8 '>
-            <div className='justify-around p-2 '>
-                <div>
-                    <img src='/image 1 (1).png' style={{ width: "10rem", height: "4rem" }} />
-                </div>
-            </div>
+            
             <div>
                 <BeduurProfile color={"custom-blue"} title1={"FINANCE CONSULTATION AND FINANCE COACH"} title2={"BEDUUR ALMUTAIRI"} title3={"Lets Grow Your Business Together"} />
             </div>
@@ -62,7 +58,7 @@ const Services = () => {
 
             <ServicesComp/>
             <Faq/>
-            <Footer/>
+           
 
         </div>
   )

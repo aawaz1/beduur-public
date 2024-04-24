@@ -7,13 +7,18 @@ module.exports = {
     extend: {
       colors: {
         'custom-blue': '#339F9F',
-        'custom-orange' : '#ED6D4F'
+        'custom-orange' : '#ED6D4F',
+        "custom-green" : "#008196",
+        "custom-black" : "#36474F",
+        "whitesmoke": "#f6f6f6",
        
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
         georgia: ['Georgia', 'serif'],
+        'kumbh-sans': ['Kumbh Sans', 'sans-serif'],
       },
+      
       fontSize: {
         'sm': '0.8rem',
         'primary' : "0.6rem",

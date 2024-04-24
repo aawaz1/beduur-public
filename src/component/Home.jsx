@@ -8,11 +8,7 @@ import { Grid } from '@mui/material'
 const Home = () => {
     return (
         <div className='p-2'>
-            <div className='justify-around p-2'>
-                <div>
-                    <img src='/image 1 (1).png' style={{ width: "10rem", height: "4rem" }} />
-                </div>
-            </div>
+           
             <div>
                 <BeduurProfile color={"white"} title1={""} title2={""} title3={""} />
             </div>
@@ -103,7 +99,7 @@ const Home = () => {
                 </div>
 
             </div>
-            <div className='flex bg-custom-blue'>
+            {/* <div className='flex bg-custom-blue'>
                 <div className='w-[50%] bg-custom-blue relative overflow-hidden p-4 pl-[10%]'>
                     <h1 className='text-white font-md p-2 text-[1.5rem]'>Call Us Today</h1>
                     <h1 className='text-white font-semibold p-2 text-[1.5rem]'>Got A Question? We Would Be
@@ -203,7 +199,7 @@ const Home = () => {
       <div className="items-center pr-16 pb-3.5 pl-20 mt-5 w-full text-base leading-6 text-center text-zinc-400 max-md:px-5 max-md:max-w-full">
         © 2023 AN INTERNATIONAL • All Rights Reserved
       </div>
-    </div>
+    </div> */}
 
 
 
