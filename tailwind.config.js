@@ -11,6 +11,7 @@ module.exports = {
         "custom-green" : "#008196",
         "custom-black" : "#36474F",
         "whitesmoke": "#f6f6f6",
+        "custom-skyblue" :"#B4DBDB"
        
       },
       fontFamily: {

@@ -1,24 +1,11 @@
 import React from 'react'
+import MembershipHeader from './MembershipHeader'
+import IconProp from './Props/IconProp'
 
 const MembershipService = () => {
     return (
         <div className='flex flex-col gap-14'>
-            <div style={{ backgroundImage: `url("/Section (2).png")` }} className='h-[15rem]'>
-                <div className='flex justify-between  w-[60%] m-[auto] h-[100%]'>
-                    <h1 className='text-white font-semibold font-poppins items-center justify-center flex   text-[1.5rem]'>
-                        Membership Service
-                    </h1>
-                    <div className='h-[100%] flex items-end '>
-                        <div style={{ borderTopRightRadius: "9px", borderTopLeftRadius: "9px" }} className='bg-white rounded-tl-12 rounded-tr-12'>
-                            <h1 className='px-6 pt-2 pb-1 text-gray-400 font-kumbh-sans font-md'>Begin <span className='mx-1'>|</span><span className='text-custom-green mx-1   font-kumbh-sans'>Business Membership</span></h1>
-                        </div>
-                        <div>
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+           <MembershipHeader title={"Membership Service"} title1={"Begin Membership"} title2={"Business"}/>
             <div className='w-[80%] m-[auto] flex '>
                 <div className='w-[70%]'>
                     <img src='/Video (1).png' />
@@ -50,39 +37,7 @@ const MembershipService = () => {
                 </div>
 
             </div>
-            <div className='w-[80%] m-[auto] rounded-md border border-gray-200'>
-                <div className='w-80% m-[auto] p-2 py-8 flex flex-col gap-4'>
-                    <div>
-                        <h1 className='text-black text-[1.2rem] font-poppins font-bold pl-6'>Additional Membership Benefits</h1>
-                    </div>
-                    <div className='flex pl-6 gap-2'>
-                        <div>
-                            <img src='/Icon.png' />
-                        </div>
-                        <div>
-                            <h1 className='text-sm'>12 Illustrated Subjects: Monthly topics covering various financial aspects such as money energy, financial readiness, global market investing, establishing projects.</h1>
-                        </div>
-                    </div>
-                    <div className='flex pl-6 gap-2'>
-                        <div>
-                            <img src='/Icon.png' />
-                        </div>
-                        <div>
-                            <h1 className='text-sm'>6 Zoom Meetings: Subscribers have the opportunity to attend direct meetings with the program organizers to address important financial issues and have their questions answered.</h1>
-                        </div>
-                    </div>
-                    <div className='flex pl-6 gap-2'>
-                        <div>
-                            <img src='/Icon.png' />
-                        </div>
-                        <div>
-                            <h1 className='text-sm'>6 Consultations via Email: Each subscriber can seek personalized advice related to their financial situation, income management, or investment path through email consultations.</h1>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
+           <div><IconProp title={"Additional Membership Benefits"} title1={"12 Illustrated Subjects: Monthly topics covering various financial aspects such as money energy, financial readiness, global market investing, establishing projects."} title2={"  6 Zoom Meetings: Subscribers have the opportunity to attend direct meetings with the program organizers to address important financial issues and have their questions answered."} title3={"  6 Consultations via Email: Each subscriber can seek personalized advice related to their financial situation, income management, or investment path through email consultations."}/></div>
             <div className='w-[80%] m-[auto] rounded-md border border-gray-200'>
                 <div className='w-80% m-[auto] p-2 py-8 flex flex-col gap-4'>
                     <div>
