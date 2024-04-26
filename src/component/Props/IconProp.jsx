@@ -1,6 +1,7 @@
 import React from 'react'
 
 const IconProp = ({title , title1 , title2 , title3}) => {
+    
   return (
     <div className='w-[80%] m-[auto] rounded-md border border-gray-200'>
                 <div className='w-80% m-[auto] p-2 py-8 flex flex-col gap-4'>

@@ -26,6 +26,7 @@ module.exports = {
         'base': '1.5rem', // Change the base font size to 18px
         'lg': '20px',
         'xl': '24px',
+        "md" :"1rem"
         
       },
     },

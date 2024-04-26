@@ -100,7 +100,9 @@ const MembershipService = () => {
                 <button className='rounded-md bg-custom-green text-white py-3 px-20 hover:bg-custom-blue'>BEGIN MEMBERSHIP</button>
 
             </div>
-            <div></div>
+            <div>
+                
+            </div>
         </div>
     )
 }

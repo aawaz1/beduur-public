@@ -13,7 +13,14 @@ import Calender from './component/Calender.jsx';
 import Ebook from './component/Ebook.jsx';
 import Contact from './component/Contact.jsx';
 import LoginForm from './component/LoginForm.jsx';
-import Admin from './component/Admin.jsx'
+import AdminScreen1 from './component/Admin.jsx';
+import AdminScreen2 from './component/Admin1.jsx';
+import AdminScreen3 from './component/Admin2.jsx';
+import AdminScreen4 from './component/Admin3.jsx';
+import AdminScreen5 from './component/Admin4.jsx';
+import AdminScreen6 from './component/Admin5.jsx';
+import AdminScreen7 from './component/Admin6.jsx';
+import AdminScreen8 from './component/Admin7.jsx';
 import Layout from './component/Layout/Layout.jsx';
 
 function App() {
@@ -32,7 +39,15 @@ function App() {
         <Route path='/calender' element={<Calender/>}/>
         <Route path='/ebook' element={<Ebook/>}/>
         <Route path='/contact' element={<Contact/>}/>
-        <Route path='/admin' element={<Admin/>}/>
+        <Route path='/admin1' element={<AdminScreen1/>}/>
+        <Route path='/admin2' element={<AdminScreen2/>}/>
+        <Route path='/admin3' element={<AdminScreen3/>}/>
+        <Route path='/admin4' element={<AdminScreen4/>}/>
+        <Route path='/admin6' element={<AdminScreen5/>}/>
+        <Route path='/admin7' element={<AdminScreen6/>}/>
+        <Route path='/admin8' element={<AdminScreen7/>}/>
+        <Route path='/admin9' element={<AdminScreen8/>}/>
+
         
       </Routes>
       </Layout>
