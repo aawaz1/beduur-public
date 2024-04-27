@@ -5,7 +5,7 @@ const MembershipHeader = ({ title, title1, title2, title3, business, setBusiness
   return (
     <div style={{ backgroundImage: `url("/Section (2).png")` }} className='h-[15rem]'>
       <div className='flex justify-between  w-[60%] m-[auto] h-[100%]'>
-        <h1 className='text-white font-semibold font-poppins items-center justify-center flex   text-[1.5rem]'>
+        <h1 className=' text-white font-semibold font-poppins items-center justify-center flex   text-sm md:text-[1.5rem]'>
           {title}
         </h1>
         <div className='h-[100%] flex items-end '>

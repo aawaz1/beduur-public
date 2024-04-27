@@ -4,7 +4,7 @@ import AddIcon from '@mui/icons-material/Add';
 
 const Faq = () => {
   return (
-    <div className='flex justify-center items-center flex-col gap-5 '>
+    <div className='flex justify-center items-center flex-col gap-5 p-3 '>
         <h1 className='text-black text-[1rem] font-bold'>Frequently Asked Questions</h1>
        
       <Accordion className='shadow-md'>

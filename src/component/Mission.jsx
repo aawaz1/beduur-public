@@ -2,8 +2,8 @@ import React from 'react'
 
 const Mission = () => {
     return (
-        <div className='p-2'>
-            <div className='w-[10rem]'>
+        <div className='p-2 h-[100%]'>
+            <div className='w-[12rem]'>
                 <h2 className='text-custom-blue text-md font-semibold '>MISSION AND VISION</h2>
                 <div className="flex flex-col justify-center py-2 w-[100%] max-md:max-w-full">
                     <div className="w-[100%] border-t border-gray-300 border-solid min-h-[1px] max-md:max-w-full" />

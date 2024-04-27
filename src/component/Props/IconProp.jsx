@@ -3,7 +3,7 @@ import React from 'react'
 const IconProp = ({title , title1 , title2 , title3}) => {
     
   return (
-    <div className='w-[80%] m-[auto] rounded-md border border-gray-200'>
+    <div className='lg:w-[80%] lg:m-[auto] rounded-md border border-gray-200'>
                 <div className='w-80% m-[auto] p-2 py-8 flex flex-col gap-4'>
                     <div>
                         <h1 className='text-black text-[1.2rem] font-poppins font-bold pl-6'>{title}</h1>

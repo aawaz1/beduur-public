@@ -12,8 +12,8 @@ const About = () => {
             <div className='p-2'>
                 <BeduurImage />
             </div>
-            <div className='flex md:w-[60%] md:m-[auto] flex-col md:flex-row '>
-                <div className='md:w-[40%] flex flex-col gap-3'>
+            <div className='flex lg:w-[60%] lg:m-[auto] flex-col lg:flex-row '>
+                <div className='lg:w-[40%] flex sm:justify-center lg:justify-normal sm:items-center lg:items-start lg:text-start sm:text-center flex-col gap-3'>
                     <h1 className='text-sm font-semibold text-custom-blue'>WHY CHOOSE OUR SERVICE</h1>
                     <h1 className='text-base font-bold'>Preparing for your <br />
                         success, we provide truly
@@ -41,7 +41,7 @@ const About = () => {
 
                 </div>
 
-                <div className='relative md:w-[45%]'>
+                <div className='relative w-[100%] lg:w-[45%] sm:justify-center lg:justify-normal sm:items-center lg:items-start'>
                     <div><img src='/div.elementor-column.png' className='md:w-[30rem] md:h-[30rem]' /></div>
                     <div className='bg-white justify-between flex border absolute right-[1.25rem] bottom-[37px] md:h-[5rem] p-5  md:w-[60%]'>
                         <div className='text-sm font-semibold text-black'>

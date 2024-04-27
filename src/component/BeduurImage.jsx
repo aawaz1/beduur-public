@@ -3,10 +3,10 @@ import Mission from './Mission'
 
 const BeduurImage = () => {
     return (
-        <div style={{ backgroundImage: `url("/Group 10.png")` }}  className='flex flex-col md:flex-row justify-between md:h-[30rem]'>
+        <div style={{ backgroundImage: `url("/Group 10.png")` }}  className='flex flex-col xl:flex-row justify-between xl:h-[30rem]'>
 
-            <div class={`bg- flex flex-col md:flex-row justify-center items-center `}>
-                <div className='flex p-1 flex-col md:h-[100%]  gap-4 bg-white md:w-[30%]'>
+            <div class={`bg- flex flex-col xl:flex-row justify-center items-center `}>
+                <div className='flex p-1 flex-col xl:h-[100%]  gap-4 bg-white xl:w-[30%]'>
                     <Mission />
 
                 </div>

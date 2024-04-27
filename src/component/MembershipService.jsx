@@ -6,14 +6,14 @@ const MembershipService = () => {
     return (
         <div className='flex flex-col gap-14'>
            <MembershipHeader title={"Membership Service"} title1={"Begin Membership"} title2={"Business"}/>
-            <div className='w-[80%] m-[auto] flex '>
+            <div className='w-[100%] xl:w-[80%] xl:m-[auto] flex flex-col xl:flex-row '>
                 <div className='w-[70%]'>
                     <img src='/Video (1).png' />
 
                 </div>
-                <div style={{ backgroundImage: `url("/Side Deatils.png")` }} className='p-2 py-8 w-[30%]' >
+                <div style={{ backgroundImage: `url("/Side Deatils.png")` }} className='p-2 py-8 w-[100%] xl:w-[30%]' >
                     <h1 className='text-white text-[1.8rem]  font-semibold px-4 py-8'>Begin Membership</h1>
-                    <h2 className='px-4 text-sm md:text-[1rem] text-white'>This membership is the first integrated annual membership to teach money management and investment basics through an integrated program of three chapters. Each chapter contains enough information to start your path to the financial freedom you want. This program was designed by Ms. Bodour Al-Mutairi, a certified trainer and project consultant since 2016. She holds a Bachelor's degree in Business Administration/Economics from the Arab Open University in a deep and simplified manner, with which it is easy to understand and apply the information to obtain the best results, God willing.
+                    <h2 className='px-4 text-sm lg:text-md xl:text-[1rem] text-white'>This membership is the first integrated annual membership to teach money management and investment basics through an integrated program of three chapters. Each chapter contains enough information to start your path to the financial freedom you want. This program was designed by Ms. Bodour Al-Mutairi, a certified trainer and project consultant since 2016. She holds a Bachelor's degree in Business Administration/Economics from the Arab Open University in a deep and simplified manner, with which it is easy to understand and apply the information to obtain the best results, God willing.
                     </h2>
                 </div>
             </div>

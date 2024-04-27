@@ -7,23 +7,23 @@ import { Grid } from '@mui/material'
 
 const Home = () => {
     return (
-        <div className='p-2'>
+        <div className='md:p-2'>
            
             <div>
                 <BeduurProfile color={"white"} title1={""} title2={""} title3={""} />
             </div>
-            <div className='container m-auto items-center flex py-12'>
+            <div className='container m-auto items-center flex  md:py-12'>
                 <div className='flex justify-center'>
-                    <div className='flex w-[90%] '>
+                    <div className='flex flex-col lg:flex-row lg:w-[90%] '>
                         <div className='w-[50%] max-w-[40rem]'>
                             <img src='Video.png' />
                         </div>
-                        <div style={{ backgroundImage: "url(./beduurbg.png)" }} className='bg-custom-blue flex justify-end w-[50%] p-4 py-6 '>
+                        <div style={{ backgroundImage: "url(./beduurbg.png)" }} className='bg-custom-blue flex justify-end  w-[100%] lg:w-[50%] md:p-4 md:py-6 '>
                             <div >
-                                <h2 className='font-poppins text-3xl text-white font-bold p-4'>Bedoor Almutairi</h2>
-                                <h2 className='font-poppins text-sm text-white font-thin p-4'>A financial coach and project consultant. She obtained a Bachelor’s degree in Business Administration/Economics in 2012 from the Arab Open University. She has been working in the field of financial training and business consulting since 2016.
+                                <h2 className='font-poppins text-3xl text-white font-bold p-1 md:p-4'>Bedoor Almutairi</h2>
+                                <h2 className='font-poppins text-sm text-white font-thin  p-2 md:p-4'>A financial coach and project consultant. She obtained a Bachelor’s degree in Business Administration/Economics in 2012 from the Arab Open University. She has been working in the field of financial training and business consulting since 2016.
                                 </h2>
-                                <div className='flex p-1 gap-3'>
+                                <div className='flex p-3 md:p-1 gap-3'>
                                     <img src='div.elementor-icon-box-icon.png' style={{ height: "2rem" }} />
                                     <div>
                                         <h2 className='font-poppins text-md text-white font-semibold '>Focus on business efficiency
@@ -33,7 +33,7 @@ const Home = () => {
                                             rutrum egestas si</h2>
                                     </div>
                                 </div>
-                                <div className='flex p-1 gap-3'>
+                                <div className='flex p-3 md:p-1 gap-3'>
                                     <img src='/div.elementor-icon-box-icon (1).png' style={{ height: "2rem" }} />
                                     <div>
                                         <h2 className='font-poppins text-md text-white font-semibold '>Focus on plan target
@@ -55,7 +55,7 @@ const Home = () => {
                 <h1 className='text-md text-white font-poppins py-8 '>
                     OUR SERVICES
                 </h1>
-                <h1 className='text-3xl text-white font-bold font-poppins py-8 text-center'>
+                <h1 className=' text-xl md:text-3xl text-white font-bold font-poppins py-8 text-center'>
 
                     We are ahead of our competitors in new
                     <br />
@@ -63,7 +63,7 @@ const Home = () => {
 
 
                 </h1>
-                <div className='flex gap-6 p-10'>
+                <div className='flex flex-col lg:flex-row gap-9 md:gap-6 p-10'>
                     <Comp bgColor='#E1EDE7' />
                     <Comp bgColor='#FFFFFF'/>
                     <Comp bgColor='#FFFDEB'/>
@@ -73,20 +73,20 @@ const Home = () => {
 
             </div>
 
-            <div className='m-[auto] w-[80%]  p-2 flex'>
-                <div className='bg-gradient-to-b from-custom-blue to-black w-[18%] flex flex-col-reverse md:h-[20rem] min-h-[20rem]'>
+            <div className='lg:m-[auto] lg:w-[80%]  md:p-2 flex  flex-col lg:flex-row'>
+                <div className='bg-gradient-to-b from-custom-blue to-black w-full lg:w-[18%] flex flex-col-reverse h-[7rem] lg:h-[20rem] '>
                     <div>
-                        <div className='flex justify-end px-6'><h1 className='text-white  text-md'>TESTIMONAL</h1></div>
-                        <h1 className='text-white px-6 justify-end flex py-2 font-semibold  text-sm'>Our Happy Customers</h1>
+                        <div className='flex justify-start lg:justify-end px-6'><h1 className='text-white  text-md'>TESTIMONAL</h1></div>
+                        <h1 className='text-white px-6 justify-start lg:justify-end flex py-2 font-semibold  text-sm'>Our Happy Customers</h1>
                     </div>
                 </div>
-                <div className=' w-[80%] flex justify-end items-end px-2'>
+                <div className=' w-full lg:w-[80%] flex justify-end items-end md:px-2'>
                     <div className='flex justify-start'>
-                        <h1 className='text-gray-300 text-[10rem]'>❝</h1>
+                        <h1 className='text-gray-300 text-[6rem] lg:text-[10rem]'>❝</h1>
 
                     </div>
                     <div>
-                        <h1 className='text-gray-300 text-[1.5rem] font-georgia p-1'>On the other hand, we denounce with rteous
+                        <h1 className='text-gray-300 text-[1.2rem] md:text-[1.5rem] font-georgia p-1'>On the other hand, we denounce with rteous
                             indignation adislike men who are so beguiled demord
                             by denounce with coffee</h1>
                         <div>
