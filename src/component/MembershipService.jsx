@@ -7,7 +7,7 @@ const MembershipService = () => {
         <div className='flex flex-col gap-14'>
            <MembershipHeader title={"Membership Service"} title1={"Begin Membership"} title2={"Business"}/>
             <div className='w-[100%] xl:w-[80%] xl:m-[auto] flex flex-col xl:flex-row '>
-                <div className='w-[70%]'>
+                <div className='w-[100%] lg:w-[70%]'>
                     <img src='/Video (1).png' />
 
                 </div>
@@ -17,7 +17,7 @@ const MembershipService = () => {
                     </h2>
                 </div>
             </div>
-            <div className='w-[80%] m-[auto] rounded-md border border-gray-200'>
+            <div className='w-[100%] lg:w-[80%] lg:m-[auto] rounded-md border border-gray-200'>
                 <div className='w-80% m-[auto] p-2 py-8 flex flex-col gap-8'>
                     <div>
                         <h1 className='text-black text-[1.2rem] font-poppins font-bold pl-6'>Membership Includes the Following Classes :</h1>
@@ -38,7 +38,7 @@ const MembershipService = () => {
 
             </div>
            <div><IconProp title={"Additional Membership Benefits"} title1={"12 Illustrated Subjects: Monthly topics covering various financial aspects such as money energy, financial readiness, global market investing, establishing projects."} title2={"  6 Zoom Meetings: Subscribers have the opportunity to attend direct meetings with the program organizers to address important financial issues and have their questions answered."} title3={"  6 Consultations via Email: Each subscriber can seek personalized advice related to their financial situation, income management, or investment path through email consultations."}/></div>
-            <div className='w-[80%] m-[auto] rounded-md border border-gray-200'>
+            <div className='w-[100%] lg:w-[80%] lg:m-[auto] rounded-md border border-gray-200'>
                 <div className='w-80% m-[auto] p-2 py-8 flex flex-col gap-4'>
                     <div>
                         <h1 className='text-black text-[1.2rem] font-poppins font-bold pl-6'>Membership Eligibility</h1>
@@ -53,7 +53,7 @@ const MembershipService = () => {
                 </div>
 
             </div>
-            <div className='w-[80%] m-[auto] rounded-md border border-gray-200'>
+            <div className='w-[100%] lg:w-[80%] lg:m-[auto] rounded-md border border-gray-200'>
                 <div className='w-80% m-[auto] p-2 py-8 flex flex-col gap-4'>
                     <div>
                         <h1 className='text-black text-[1.2rem] font-poppins font-bold pl-6'>Accessibility</h1>
@@ -68,7 +68,7 @@ const MembershipService = () => {
                 </div>
 
             </div>
-            <div className='w-[80%] m-[auto] rounded-md border border-gray-200'>
+            <div className='w-[100%] lg:w-[80%] lg:m-[auto] rounded-md border border-gray-200'>
                 <div className='w-80% m-[auto] p-2 py-8 flex flex-col gap-4'>
                     <div>
                         <h1 className='text-black text-[1.2rem] font-poppins font-bold pl-6'>Accessibility</h1>
@@ -83,7 +83,7 @@ const MembershipService = () => {
                 </div>
 
             </div>
-            <div className='w-[80%] m-[auto] rounded-md border border-gray-200'>
+            <div className='w-[100%] lg:w-[80%] lg:m-[auto] rounded-md border border-gray-200'>
                 <div className='w-80% m-[auto] p-2 py-8 flex flex-col gap-4'>
                     <div className='flex justify-start items-center'>
                         <h1 className='text-black text-[1.2rem] font-poppins font-bold pl-6'> Membership Duration : </h1>

@@ -52,7 +52,7 @@ const Contact = () => {
         </div>
         <div className='relative'>
             <img src='/Map.png'  className='w-[100%] h-[40rem]'/>
-            <div className='absolute bottom-0 left-8 md:bottom-2 md:right-40 gap-4 rounded-md flex flex-col justify-start items-center bg-white p-2 px-12'>
+            <div className='absolute bottom-0 right-5  md:bottom-2 md:right-40 gap-4 rounded-md flex flex-col justify-start items-center bg-white p-2 px-12'>
                 <h1 className='text-custom-green text-sm font-poppins w-[100%]'>Get In Touch</h1>
                 <h2 className='text-[1.2rem]  font-bold w-[100%]'>Need More Help  <br/> Send Us Message?</h2>
                 <TextField id="Name" label="Name" variant="outlined" />

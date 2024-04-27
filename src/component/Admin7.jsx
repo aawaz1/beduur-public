@@ -4,9 +4,9 @@ import React from 'react'
 const Admin7 = () => {
   return (
   <div className='p-4 flex flex-col gap-5 px-8'>
-   <div className='text-[1.5rem] font-semibold font-poppins px-4'>Mail To</div>
-    <div className='flex w-[100%] shadow-md rounded-md'>
-        <div className='w-[70%] px-4 py-4'>
+   <div className='text-[1.2rem] font-semibold font-poppins px-4'>Mail To</div>
+    <div className='flex w-[100%] justify-center items-center shadow-md rounded-md gap-6'>
+        <div className='w-[60%] px-4 py-4'>
            <div className='flex flex-col text-center justify-start items-start px-10 gap-14'>
            <TextField className=" border border-gray-300 rounded-md p-2 w-[100%]" id="outlined-basic" label="To" variant="outlined" />
            <TextField className=" border border-gray-300 rounded-md p-2 w-[100%]" id="outlined-basic" label="From" variant="outlined" />
@@ -16,7 +16,7 @@ const Admin7 = () => {
            </div>
 
         </div>
-        <div className='w-[30%]'>
+        <div className='w-[40%]'>
             <img src='/Group 3.png'/>
         </div>
     </div>

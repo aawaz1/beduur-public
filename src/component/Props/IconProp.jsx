@@ -10,7 +10,7 @@ const IconProp = ({title , title1 , title2 , title3}) => {
                     </div>
                     <div className='flex pl-6 gap-2'>
                         <div>
-                            <img src='/Icon.png' />
+                        <img src='/Icon.png' className='w-[3rem] md:w-[1rem]' />
                         </div>
                         <div>
                             <h1 className='text-sm'>
@@ -20,7 +20,7 @@ const IconProp = ({title , title1 , title2 , title3}) => {
                     </div>
                     <div className='flex pl-6 gap-2'>
                         <div>
-                            <img src='/Icon.png' />
+                        <img src='/Icon.png' className='w-[3rem] md:w-[1rem]' />
                         </div>
                         <div>
                             <h1 className='text-sm'>
@@ -30,7 +30,7 @@ const IconProp = ({title , title1 , title2 , title3}) => {
                     </div>
                     <div className='flex pl-6 gap-2'>
                         <div>
-                            <img src='/Icon.png' />
+                        <img src='/Icon.png' className='w-[3rem] md:w-[1rem]' />
                         </div>
                         <div>
                             <h1 className='text-sm'>

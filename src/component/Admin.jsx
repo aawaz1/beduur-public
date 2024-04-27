@@ -44,7 +44,7 @@ const Admin = () => {
           </Typography>
           <TextField id="outlined-basic" label="Question" variant="outlined" />
           <TextField rows={8} multiline id="outlined-basic" label="Answer" variant="outlined" />
-          <button  className='rounded-md p-3  text-white font-medium bg-custom-blue'>ADD Service</button>
+          <button  className='rounded-md p-3  text-white font-medium bg-custom-blue'>Add Service</button>
         </Box>
         </Modal>
       </div>

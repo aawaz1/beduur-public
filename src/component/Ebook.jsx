@@ -3,7 +3,7 @@ import MembershipHeader from './MembershipHeader'
 
 const Ebook = () => {
     return (
-        <div className='flex  flex-col gap-4 md:p-4'>
+        <div className='flex  flex-col gap-4 lg:p-4'>
             <div>
                 <MembershipHeader business={null} setBusiness={null} title={"E Book Service"} title1={"Free E-Book"} title2={"Paid"} title3={null} />
             </div>
@@ -18,7 +18,7 @@ const Ebook = () => {
                             <h1 className='text-custom-green font-semibold font-poppins lg:p-4 lg:pl-8'>
                                 FREE E-BOOK
                             </h1>
-                            <div className="flex flex-col justify-center px-4 pl-8 py-4 w-[80%] max-md:max-w-full">
+                            <div className="flex flex-col justify-center lg:px-4 lg:pl-8 py-4 w-[80%] max-md:max-w-full">
                                 <div className="w-[100%] border-t border-gray-300 border-solid min-h-[1px] max-md:max-w-full" />
                             </div>
                             <div>
@@ -29,12 +29,12 @@ const Ebook = () => {
 
                     </div>
 
-                    <div className='flex flex-col gap-4 p-4 py-16 w-[50%] lg:w-[100%]'>
+                    <div className='flex flex-col gap-4 p-4 py-16 w-[50%] md:w-[100%]'>
 
 
 
-                        <div className='flex gap-12 w-[25rem] md:w-[100%]'>
-                            <div className='flex flex-col w-[70%] gap-2'>
+                        <div className='flex gap-12 w-[20rem] md:w-[100%]'>
+                            <div className='flex flex-col w-[100%] lg:w-[70%] gap-2'>
                                 <label className='text-md font-md' for="username">Name</label>
                                 <input className="border border-gray-300  rounded-md p-2 w-[100%]" placeholder="Name" type="text" />
 
@@ -43,8 +43,8 @@ const Ebook = () => {
 
 
                         </div>
-                        <div className='flex gap-12 w-[25rem] md:w-[100%]'>
-                            <div className='flex flex-col w-[70%] gap-2'>
+                        <div className='flex gap-12 w-[20rem] md:w-[100%]'>
+                            <div className='flex flex-col w-[100%] lg:w-[70%] gap-2'>
                                 <label className='text-md font-md' for="username">Email</label>
                                 <input className="border border-gray-300  rounded-md p-2 w-[100%]" placeholder="Email" type="text" />
 
@@ -52,8 +52,8 @@ const Ebook = () => {
 
 
                         </div>
-                        <div className='flex gap-12 w-[25rem] md:w-[100%]'>
-                            <div className='flex flex-col w-[70%] gap-2'>
+                        <div className='flex gap-12 w-[20rem] md:w-[100%]'>
+                            <div className='flex flex-col w-[100%] lg:w-[70%] gap-2'>
                                 <label className='text-md font-md' for="username">Phone</label>
                                 <input className="border border-gray-300  rounded-md p-2 w-[100%]" placeholder="Phone" type="text" />
 
@@ -67,7 +67,7 @@ const Ebook = () => {
                                 Choose the session time according to chosen date or your else appointment will be get cancelled.
                             </h1>
                         </div>
-                        <div className=' cursor-pointer flex justify-center items-center w-[18rem] md:w-[70%] bg-custom-green text-sm text-white p-3 px-22 rounded-lg'>
+                        <div className=' cursor-pointer flex justify-center items-center w-[100%] md:w-[70%] bg-custom-green text-sm text-white p-3 px-22 rounded-lg'>
                             Get Free E-Book
                         </div>
 

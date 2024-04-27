@@ -23,7 +23,7 @@ module.exports = {
       fontSize: {
         'sm': '0.8rem',
         'primary' : "0.6rem",
-        'base': '1.5rem', // Change the base font size to 18px
+        'base': '1.5rem',
         'lg': '20px',
         'xl': '24px',
         "md" :"1rem"

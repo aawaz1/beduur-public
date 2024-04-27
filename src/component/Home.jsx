@@ -7,7 +7,7 @@ import { Grid } from '@mui/material'
 
 const Home = () => {
     return (
-        <div className='md:p-2'>
+        <div className=' p-1 flex flex-col  gap-8 md:p-2'>
            
             <div>
                 <BeduurProfile color={"white"} title1={""} title2={""} title3={""} />
@@ -15,7 +15,7 @@ const Home = () => {
             <div className='container m-auto items-center flex  md:py-12'>
                 <div className='flex justify-center'>
                     <div className='flex flex-col lg:flex-row lg:w-[90%] '>
-                        <div className='w-[50%] max-w-[40rem]'>
+                        <div className='md:w-[50%] max-w-[40rem]'>
                             <img src='Video.png' />
                         </div>
                         <div style={{ backgroundImage: "url(./beduurbg.png)" }} className='bg-custom-blue flex justify-end  w-[100%] lg:w-[50%] md:p-4 md:py-6 '>
@@ -74,7 +74,7 @@ const Home = () => {
             </div>
 
             <div className='lg:m-[auto] lg:w-[80%]  md:p-2 flex  flex-col lg:flex-row'>
-                <div className='bg-gradient-to-b from-custom-blue to-black w-full lg:w-[18%] flex flex-col-reverse h-[7rem] lg:h-[20rem] '>
+                <div className='bg-gradient-to-b from-custom-blue to-black w-full lg:w-[15%] flex flex-col-reverse h-[7rem] lg:h-[20rem] '>
                     <div>
                         <div className='flex justify-start lg:justify-end px-6'><h1 className='text-white  text-md'>TESTIMONAL</h1></div>
                         <h1 className='text-white px-6 justify-start lg:justify-end flex py-2 font-semibold  text-sm'>Our Happy Customers</h1>
