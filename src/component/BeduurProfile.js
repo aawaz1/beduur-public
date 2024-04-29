@@ -12,7 +12,7 @@ const BeduurProfile = ({ title1, title, title2, color, title3 }) => {
                 </div>
 
             </div>
-            <div><img src='/Group 9.png' style={{ width: "50rem", height: "30rem" }} /></div>
+            <div><img src='/Group 9.png' style={{ width: "50rem" }} /></div>
         </div>
     )
 }

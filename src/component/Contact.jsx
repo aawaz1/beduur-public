@@ -4,7 +4,7 @@ import { TextField } from '@mui/material'
 
 const Contact = () => {
     return (
-        <div className='flex flex-col gap-12'>
+        <div className='flex flex-col gap-12 p-1 md:p-2'>
         <div>
         <BeduurProfile color={"custom-blue"} title1={"FINANCE CONSULTATION AND FINANCE COACH"} title2={"BEDUUR ALMUTAIRI"} title3={"Lets Grow Your Business Together"} />
     </div>
@@ -52,7 +52,7 @@ const Contact = () => {
         </div>
         <div className='relative'>
             <img src='/Map.png'  className='w-[100%] h-[40rem]'/>
-            <div className='absolute bottom-0 right-5  md:bottom-2 md:right-40 gap-4 rounded-md flex flex-col justify-start items-center bg-white p-2 px-12'>
+            <div className='absolute bottom-2 right-5  md:bottom-2 md:right-40 gap-4 rounded-md flex flex-col justify-start items-center bg-white p-2 px-12'>
                 <h1 className='text-custom-green text-sm font-poppins w-[100%]'>Get In Touch</h1>
                 <h2 className='text-[1.2rem]  font-bold w-[100%]'>Need More Help  <br/> Send Us Message?</h2>
                 <TextField id="Name" label="Name" variant="outlined" />

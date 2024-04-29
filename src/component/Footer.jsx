@@ -4,7 +4,7 @@ import React from 'react'
 const Footer = () => {
     return (
         <>
-        <div className='block lg:hidden blockflex flex-col'>
+            <div className='block lg:hidden blockflex flex-col'>
                 <div className='w-[100%] lg:w-[50%] bg-custom-blue relative overflow-hidden p-4 pl-[10%]'>
                     <h1 className='text-white font-md p-2 text-[1.5rem]'>Call Us Today</h1>
                     <h1 className='text-white font-semibold p-2 text-[1.5rem]'>Got A Question? We Would Be
@@ -69,32 +69,32 @@ const Footer = () => {
 
             </div>
 
-            <div className='lg:w-[80%] lg:m-[auto] flex flex-col justify-center items-center gap-2 px-2 lg:px-0 py-6 '>
+            <div className='lg:w-[80%] lg:m-[auto] flex flex-col justify-center items-center gap-8 px-2 lg:px-0 py-6 '>
                 <Grid container spacing={2}>
                     <Grid item xs={12} md={4}>
-                        <div className=''>
-                            <img src='/image 1 (1).png' />
-                            <h1 className='text-gray-400 '>A Finacial Coach And A Business Consultant</h1>
+                        <div className='flex flex-col gap-4'>
+                            <img src='/image 1 (1).png' className='w-[10rem]' />
+                            <h1 className='text-gray-400 font-semibold '>A Financial Coach And A Business Consultant</h1>
                         </div>
 
                     </Grid>
                     <Grid item xs={12} md={4}>
                         <div className='gap-2'>
-                            <h1 className='text-black text-[1.3rem] font-semibold py-1'>Quick Links</h1>
-                            <h1 className='text-gray-300 font-poppins'>Home</h1>
-                            <h1 className='text-gray-300 font-poppins'>About Us</h1>
-                            <h1 className='text-gray-300 font-poppins '>Services</h1>
-                            <h1 className='text-gray-300 font-poppins '>Contact Us</h1>
+                            <h1 className='text-black text-[1.1rem] font-bold py-1'>QUICK LINKS</h1>
+                            <h1 className='text-gray-300 text-[1rem] font-medium'>Home</h1>
+                            <h1 className='text-gray-300 font-semibold'>About Us</h1>
+                            <h1 className='text-gray-300 font-semibold '>Services</h1>
+                            <h1 className='text-gray-300 font-semibold'>Contact Us</h1>
 
                         </div>
                     </Grid>
                     <Grid item xs={12} md={4}>
                         <div className='gap-2'>
-                            <h1 className='text-black text-[1.3rem] font-semibold py-1'>Services</h1>
-                            <h1 className='text-gray-300 font-poppins'>Membership</h1>
-                            <h1 className='text-gray-300 font-poppins'>Book Consultation</h1>
-                            <h1 className='text-gray-300 font-poppins '>Booking</h1>
-                            <h1 className='text-gray-300 font-poppins '>Pages</h1>
+                            <h1 className='text-black text-[1.1rem] font-bold py-1'>Services</h1>
+                            <h1 className='text-gray-300 text-[1rem] font-medium'>Membership</h1>
+                            <h1 className='text-gray-300 text-[1rem] font-medium'>Book Consultation</h1>
+                            <h1 className='text-gray-300 text-[1rem] font-medium'>Booking</h1>
+                            <h1 className='text-gray-300 text-[1rem] font-medium '>Pages</h1>
 
                         </div>
                     </Grid>
@@ -130,10 +130,10 @@ const Footer = () => {
 
             </div>
             <div className="flex flex-col w-[80%] m-[auto]">
-                <div className="flex flex-col justify-center py-4 w-[100%] max-md:max-w-full">
+                <div className="flex flex-col justify-center py-1 w-[100%] max-md:max-w-full">
                     <div className="w-[100%] border-t border-gray-800 border-solid min-h-[1px] max-md:max-w-full" />
                 </div>
-                <div className="items-center pr-16 pb-3.5 pl-20 mt-5 w-full  leading-6 text-sm md:text-[1.2rem] text-center text-zinc-400 max-md:px-5 max-md:max-w-full">
+                <div className="items-center pr-16 pb-3.5 pl-20 mt-5 w-full  leading-6 text-sm md:text-[1.1rem] text-center text-zinc-400 max-md:px-5 max-md:max-w-full">
                     © 2023 AN INTERNATIONAL • All Rights Reserved
                 </div>
             </div>

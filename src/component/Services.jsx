@@ -31,9 +31,9 @@ const Services = () => {
 
 </h1>
 <div className='flex flex-col lg:flex-row gap-9 md:gap-6 p-10'>
-    <Comp bgColor='#E1EDE7' />
-    <Comp bgColor='#FFFFFF'/>
-    <Comp bgColor='#FFFDEB'/>
+<Comp navigation={"/membershipservice"} title1={"MemberShip"} title2={"Business Membership"} heading={"Membership services offer you programs and materials that prepare you to start a new, different phase of your life"} bgColor='#E1EDE7' />
+                    <Comp navigation={"/calender"} title1={"Book"} title2={"Consultation"} heading={"We cater to the needs of diverse industries across verticals. We are a team of devoted souls."} bgColor='#FFFFFF'/>
+                    <Comp navigation={"/ebook"} title1={"Free/Paid"} title2={"E-Books"} bgColor='#FFFDEB' heading={"We are a team of devoted souls in the area of mainframe technologies. We also develop new software."}/>
 
 
 </div>

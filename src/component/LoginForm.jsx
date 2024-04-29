@@ -2,7 +2,7 @@ import React from 'react'
 
 const LoginForm = () => {
     return (
-        <div className='flex flex-col-reverse lg:flex-row w-[100%] gap-2 sm:p-0 md:p-2'>
+        <div className='flex flex-col-reverse lg:flex-row w-[100%] gap-2 sm:p-0 '>
             <div className='w-[100%] lg:w-[30%] gap-16 flex flex-col text-center justify-start items-center'>
                 <div className='p-5 '>
                     <img src='/image 1 (1).png' className='w-[10rem] xl:w-[12rem]' />
@@ -26,7 +26,7 @@ const LoginForm = () => {
 
             </div>
             <div className='w-[100%] lg:w-[70%]'>
-                <img src='/image 9.png' />
+                <img src='/image 9.png' className='h-[100vh] w-[100vw]' />
 
             </div>
         </div>

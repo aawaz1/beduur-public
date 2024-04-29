@@ -1,0 +1,24 @@
+ .custom-calender .MuiDayCalendar-weekContainer{
+    justify-content: space-around;
+ }
+
+
+ .custom-calender .MuiDayCalendar-header{
+    justify-content: space-around;
+
+ }
+
+ .custom-calender .MuiDateCalendar-root{
+    width: 100%;
+ }
+
+
+ .custom-calender  .MuiDayCalendar-weekContainer .Mui-selected {
+    background-color: #339F9F !important;
+    border-radius: 14px !important;
+    
+ }
+
+ .custom-calender  .MuiDayCalendar-weekContainer .Mui-selected:hover{
+    background-color: #339F9F!important;
+ }

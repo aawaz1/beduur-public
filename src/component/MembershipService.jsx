@@ -1,8 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import MembershipHeader from './MembershipHeader'
 import IconProp from './Props/IconProp'
+import { useLocation, useNavigate } from 'react-router-dom';
 
 const MembershipService = () => {
+    const navigate = useNavigate();
+   
+        const location = useLocation();
+      
+        useEffect(() => {
+          // Scroll to the top of the page whenever the location changes
+          window.scrollTo(0, 0);
+        }, [location.pathname]); // Trigger effect when the pathname changes
+      
+       
+      
     return (
         <div className='flex flex-col gap-14'>
            <MembershipHeader title={"Membership Service"} title1={"Begin Membership"} title2={"Business"}/>
@@ -97,7 +109,7 @@ const MembershipService = () => {
 
             </div>
             <div className='flex justify-center items-center '>
-                <button className='rounded-md bg-custom-green text-white py-3 px-20 hover:bg-custom-blue'>BEGIN MEMBERSHIP</button>
+                <button onClick={() => navigate("/membershipservice1")} className='rounded-md bg-custom-green text-white py-3 px-20 hover:bg-custom-blue'>BEGIN MEMBERSHIP</button>
 
             </div>
             <div>

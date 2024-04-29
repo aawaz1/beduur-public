@@ -2,15 +2,16 @@ import React from 'react'
 import BeduurProfile from './BeduurProfile'
 import Comp from './Comp'
 import './conatiner.css'
-import { Grid } from '@mui/material'
+import { Grid } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
 
 
 const Home = () => {
     return (
         <div className=' p-1 flex flex-col  gap-8 md:p-2'>
            
-            <div>
-                <BeduurProfile color={"white"} title1={""} title2={""} title3={""} />
+           <div>
+                <BeduurProfile color={"custom-blue"} title1={"FINANCE CONSULTATION AND FINANCE COACH"} title2={"BEDUUR ALMUTAIRI"} title3={"Lets Grow Your Business Together"} />
             </div>
             <div className='container m-auto items-center flex  md:py-12'>
                 <div className='flex justify-center'>
@@ -52,7 +53,7 @@ const Home = () => {
 
             <div className='bg-gradient-to-b from-custom-blue to-black p-4 flex justify-center items-center flex-col'>
 
-                <h1 className='text-md text-white font-poppins py-8 '>
+                <h1 className='text-md text-custom-skyblue font-poppins py-8 '>
                     OUR SERVICES
                 </h1>
                 <h1 className=' text-xl md:text-3xl text-white font-bold font-poppins py-8 text-center'>
@@ -64,9 +65,9 @@ const Home = () => {
 
                 </h1>
                 <div className='flex flex-col lg:flex-row gap-9 md:gap-6 p-10'>
-                    <Comp bgColor='#E1EDE7' />
-                    <Comp bgColor='#FFFFFF'/>
-                    <Comp bgColor='#FFFDEB'/>
+                    <Comp navigation={"/membershipservice"} title1={"MemberShip"} title2={"Business Membership"} heading={"Membership services offer you programs and materials that prepare you to start a new, different phase of your life"} bgColor='#E1EDE7' />
+                    <Comp navigation={"/calender"} title1={"Book"} title2={"Consultation"} heading={"We cater to the needs of diverse industries across verticals. We are a team of devoted souls."} bgColor='#FFFFFF'/>
+                    <Comp navigation={"/ebook"} title1={"Free/Paid"} title2={"E-Books"} bgColor='#FFFDEB' heading={"We are a team of devoted souls in the area of mainframe technologies. We also develop new software."}/>
 
 
                 </div>
@@ -76,8 +77,8 @@ const Home = () => {
             <div className='lg:m-[auto] lg:w-[80%]  md:p-2 flex  flex-col lg:flex-row'>
                 <div className='bg-gradient-to-b from-custom-blue to-black w-full lg:w-[15%] flex flex-col-reverse h-[7rem] lg:h-[20rem] '>
                     <div>
-                        <div className='flex justify-start lg:justify-end px-6'><h1 className='text-white  text-md'>TESTIMONAL</h1></div>
-                        <h1 className='text-white px-6 justify-start lg:justify-end flex py-2 font-semibold  text-sm'>Our Happy Customers</h1>
+                        <div className='flex justify-start lg:justify-end pr-6 '><h1 className='text-white  text-md'>TESTIMONAL</h1></div>
+                        <h1 className='text-white pr-6  justify-start lg:justify-end flex py-2 font-semibold  text-sm'>Our Happy Customers</h1>
                     </div>
                 </div>
                 <div className=' w-full lg:w-[80%] flex justify-end items-end md:px-2'>
