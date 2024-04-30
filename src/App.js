@@ -10,6 +10,7 @@ import Membership from './component/Membership.jsx'
 import MembershipService from './component/MembershipService.jsx';
 import MembershipService1 from './component/MembershipService1.jsx';
 import Calender from './component/Calender.jsx';
+import JoinMembership from './component/JoinMembership.jsx';
 import Ebook from './component/Ebook.jsx';
 import Contact from './component/Contact.jsx';
 import LoginForm from './component/LoginForm.jsx';
@@ -43,7 +44,7 @@ function App() {
         {/* <Route path='/add' element={<Faq />} /> */}
         <Route path='/services' element={
           <Layout>
-            <Services />
+            <Services/>
           </Layout>
         } />
         <Route path='/membership' element={
@@ -64,6 +65,11 @@ function App() {
         <Route path='/calender' element={
           <Layout>
             <Calender />
+          </Layout>
+        } />
+         <Route path='/joinmembership' element={
+          <Layout>
+            <JoinMembership />
           </Layout>
         } />
         <Route path='/ebook' element={

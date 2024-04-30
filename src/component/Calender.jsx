@@ -8,14 +8,16 @@ import { createTheme, styled } from '@mui/material/styles';
 import './calender.css'
 
 const Calender = () => {
+
+    const buttons = [{"id" :1 , time : "12:30PM"},{"id" :2 , time : "2:30PM"},{"id" :3 , time : "4:30PM"}, {"id" :4 , time : "6:30PM"},]
     const [business, setBusiness] = useState(1);
     const [button ,setButton] = useState(false);
     const [button1 , setButton1] = useState(false);
     const [button2 , setButton2] = useState(false)
     const [button3 , setButton3] = useState(false)
-    const handleButton = () => {
-        setButton(!button)
-    }
+    // const handleButton = () => {
+    //     setButton(!button)
+    // }
     const handleButton1 = () => {
         setButton1(!button1)
     }
@@ -36,6 +38,11 @@ const Calender = () => {
             },
         },
     });
+    const [activeButtonIndex, setActiveButtonIndex] = useState(null);
+
+    const handleButton = (index) => {
+      setActiveButtonIndex(index === activeButtonIndex ? null : index);
+    };
 
     // Create a styled calendar component
     const StyledCalendar = styled(DateCalendar)({
@@ -54,13 +61,18 @@ const Calender = () => {
                 <MembershipHeader business={business} setBusiness={setBusiness} title={"Book Consultation Service"} title1={"Home Business Session"} title2={"Small & Middle Business"} title3={"Business Development Contract"} />
             </div>
             <div>
-                <IconProp title={business === 1 ? ("HOME BUSINESS SESSION") : business === 2 ? ("Small & Middle Business") : ("Business Development Contract")} title1={"12 Illustrated Subjects: Monthly topics covering various financial aspects such as money energy, financial readiness, global market investing, establishing projects."}
+                <IconProp title={business === 1 ? ("Home Business Session") : business === 2 ? ("Small & Middle Business") : ("Business Development Contract")} title1={"12 Illustrated Subjects: Monthly topics covering various financial aspects such as money energy, financial readiness, global market investing, establishing projects."}
                     title2={"6 Zoom Meetings: Subscribers have the opportunity to attend direct meetings with the program organizers to address important financial issues and have their questions answered."}
                     title3={"6 Consultations via Email: Each subscriber can seek personalized advice related to their financial situation, income management, or investment path through email consultations."} />
             </div>
-            <div className='lg:w-[80%] lg:mx-auto '>
+            <div className='lg:w-[80%] lg:mx-auto flex flex-col gap-4'>
                 <div className="flex flex-col justify-center py-4 w-[100%] max-md:max-w-full">
                     <div className="w-[100%] border-t-[6px] border-custom-green border-solid min-h-[1px] max-md:max-w-full" />
+                </div>
+                <div className='flex flex-col gap-3'>
+                    <h1 className='text-custom-blue  font-semibold'>{business === 1 ? ("Home Business Session") : business === 2 ? ("Small & Middle Business") : ("Business Development Contract")}</h1>
+                <div className="w-[40%] border-t border-gray-300 border-solid min-h-[1px] max-md:max-w-full" />
+
                 </div>
 
                 <div className='flex gap-5 flex-col lg:flex-row '>
@@ -80,10 +92,26 @@ const Calender = () => {
                         </Container>
                         <div className=' border border-gray-300 flex gap-4 p-3 text-center justify-start items-center w-[100%]'>
                             <h1>Time</h1>
-                            <button onClick={handleButton} className={`${button ? 'bg-custom-gray' :"bg-transparent" } py-1 border rounded-md border-gray-300 px-1`}> <span className={`${button ? 'bg-green-400' :"bg-transparent" } rounded-full text-transparent px-0.5`}>22</span>12:30 PM</button>
-                            <button onClick={handleButton1} className={`${button1 ? 'bg-custom-gray' :"bg-transparent" } py-1 border rounded-md border-gray-300 px-1`}> <span className={`${button1 ? 'bg-green-400' :"bg-transparent" } rounded-full text-transparent px-0.5`}>22</span>12:30 PM</button>
-                            <button onClick={handleButton2} className={`${button2 ? 'bg-custom-gray' :"bg-transparent" } py-1 border rounded-md border-gray-300 px-1`}> <span className={`${button2 ? 'bg-green-400' :"bg-transparent" } rounded-full text-transparent px-0.5`}>22</span>12:30 PM</button>
-                            <button onClick={handleButton3} className={`${button3 ? 'bg-custom-gray' :"bg-transparent" } py-1 border rounded-md border-gray-300 px-1`}> <span className={`${button3 ? 'bg-green-400' :"bg-transparent" } rounded-full text-transparent px-0.5`}>22</span>12:30 PM</button>
+                            <div className='flex gap-2'>
+      {[0, 1, 2, 3].map((index) => (
+        <button
+          key={index}
+          onClick={() => handleButton(index)}
+          className={`py-1 border rounded-md border-gray-300 px-1 ${
+            activeButtonIndex === index ? 'bg-custom-gray' : 'bg-transparent'
+          } text-sm xl:text-[1rem]`}
+        >
+          <span
+            className={`rounded-full px-0.5 ${
+              activeButtonIndex === index ? 'bg-green-400' : 'bg-transparent'
+            } text-transparent`}
+          >
+            22
+          </span>
+          12:30 PM
+        </button>
+      ))}
+    </div>
                             
                            
 
@@ -101,13 +129,13 @@ const Calender = () => {
                             </div>
                         </div>
                         <div className='flex flex-col lg:flex-row gap-4 lg:gap-12'>
-                            <div className='flex flex-col gap-2'>
+                            <div className='flex flex-col gap-2 w-[50%]'>
                                 <label className='text-md font-md' for="username">Name</label>
                                 <input className=" border border-gray-300 rounded-md p-2 w-[100%]" placeholder="Name" type="text" />
 
                             </div>
 
-                            <div className='flex flex-col gap-2'>
+                            <div className='flex flex-col gap-2 w-[50%]'>
                                 <label className='text-md font-md' for="username">Email</label>
                                 <input className="border border-gray-300 rounded-md p-2 w-[100%]" placeholder="Email" type="text" />
 
@@ -117,12 +145,12 @@ const Calender = () => {
 
                         </div>
                         <div className='flex flex-col lg:flex-row gap-4 lg:gap-12'>
-                            <div className='flex flex-col gap-2'>
+                            <div className='flex flex-col gap-2 w-[50%]'>
                                 <label className='text-md font-md' for="username">Phone</label>
                                 <input className="border border-gray-300  rounded-md p-2 w-[100%]" placeholder="Phone" type="text" />
 
                             </div>
-                            <div className='flex flex-col gap-2'>
+                            <div className='flex flex-col gap-2 w-[50%]'>
                                 <label className='text-md font-md' for="username">Session Type</label>
                                 <input className="border border-gray-300  rounded-md p-2 w-[100%]" placeholder="Session Type" type="text" />
 
@@ -131,12 +159,12 @@ const Calender = () => {
 
                         </div>
                         <div className='flex flex-col lg:flex-row gap-4 lg:gap-12'>
-                            <div className='flex flex-col gap-2'>
+                            <div className='flex flex-col gap-2 w-[50%]'>
                                 <label className='text-md font-md' for="username">Session Date</label>
                                 <input className="border border-gray-300  rounded-md p-2 w-[100%]" placeholder="Session Date" type="text" />
 
                             </div>
-                            <div className='flex flex-col gap-2'>
+                            <div className='flex flex-col gap-2 w-[50%]'>
                                 <label className='text-md font-md' for="username">Session Time</label>
                                 <input className="border border-gray-300  rounded-md p-2 w-[100%]" placeholder="Session Time" type="text" />
 
@@ -145,7 +173,7 @@ const Calender = () => {
 
                         </div>
                         <div className='flex gap-4 lg:gap-12'>
-                            <div className='flex flex-col gap-2 lg:w-[100%]  xl:w-[62%]'>
+                            <div className='flex flex-col gap-2 lg:w-[100%]'>
                                 <label className='text-md font-md' for="username">Payment Type</label>
                                 <input className="border border-gray-300  rounded-md p-2 w-[100%]" placeholder="Payment Type" type="text" />
 
@@ -155,11 +183,11 @@ const Calender = () => {
 
                         </div>
                         <div>
-                            <h1 className='text-[1rem] font-poppins lg:w-[100%] xl:w-[62%]'>
+                            <h1 className='text-[0.8rem] font-poppins lg:w-[100%] '>
                                 Choose the session time according to chosen date or  else your appointment will be get cancelled.
                             </h1>
                         </div>
-                        <div className=' cursor-pointer flex justify-center items-center  lg:w-[100%] xl:w-[62%] bg-custom-green  hover:bg-custom-blue text-sm text-white p-3 px-22 rounded-lg'>
+                        <div className=' cursor-pointer flex justify-center items-center  lg:w-[100%]  bg-custom-green  hover:bg-custom-blue text-sm text-white p-3 px-22 rounded-lg'>
                             Submit Message
                         </div>
 

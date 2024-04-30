@@ -48,7 +48,7 @@ const Admin = () => {
         </Box>
         </Modal>
       </div>
-       <div className='flex w-[100%]'>
+       <div className='flex h-[100vh] w-[100%]'>
        <div className='bg-custom-skyblue w-[15%] gap-4 flex flex-col'>
            <div className='p-3 flex gap-8 justify-center items-center'>
                <img width={"100rem"} src='/image 1 (2).png' />
@@ -175,7 +175,8 @@ const Admin = () => {
 
                </div>
            </div>
-           <div className='px-8 py-6 flex justify-between'>
+           
+           {/* <div className='px-8 py-6 flex justify-between'>
                <h1 className='text-md font-semibold font-poppins'>Services</h1>
                <button onClick={handleOpen} className='px-3 py-2 text-white rounded-full font-poppins text-md bg-custom-blue'>Add New Service</button>
 
@@ -190,7 +191,7 @@ const Admin = () => {
                       <IconProp title={ "Business Development Contract" } title1={"12 Illustrated Subjects: Monthly topics covering various financial aspects such as money energy, financial readiness, global market investing, establishing projects."}
                      title2={"6 Zoom Meetings: Subscribers have the opportunity to attend direct meetings with the program organizers to address important financial issues and have their questions answered."}
                      title3={"6 Consultations via Email: Each subscriber can seek personalized advice related to their financial situation, income management, or investment path through email consultations."}/>
-           </div>
+           </div> */}
 
        </div>
 

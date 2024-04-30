@@ -12,7 +12,7 @@ const BeduurImage = () => {
                 </div>
 
             </div>
-            <div className='flex justify-end'><img src='/image 5.png' style={{ width: "30rem", height: "30rem" }} /></div>
+            <div className='flex justify-end'><img src='/beduur1.jpg' style={{ width: "64rem" }} /></div>
         </div>
     )
 }
