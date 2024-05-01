@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <>
             <div className='block lg:hidden blockflex flex-col'>
-                <div className='w-[100%] lg:w-[50%] bg-custom-blue relative overflow-hidden p-4 pl-[10%]'>
+                {/* <div className='w-[100%] lg:w-[50%] bg-custom-blue relative overflow-hidden p-4 pl-[10%]'>
                     <h1 className='text-white font-md p-2 text-[1.5rem]'>Call Us Today</h1>
                     <h1 className='text-white font-semibold p-2 text-[1.5rem]'>Got A Question? We Would Be
                         Happy To Help!</h1>
@@ -25,21 +25,41 @@ const Footer = () => {
                     </div>
 
 
+                </div> */}
+                <div className='w-[100%] lg:w-[50%] bg-custom-blue relative overflow-hidden p-4 pl-[10%]'>
+                    <h1 className='text-white font-md p-2 text-[1.5rem]'>Mail Us Today</h1>
+                    <h1 className='text-white font-semibold p-2 text-[1.5rem]'>Got A Question? We Would Be
+                        Happy To Help!</h1>
+                        <div className='w-[100%] lg:w-[50%] rounded-full text-custom-blue text-[1rem] font-bold   p-2 flex justify-center items-center bg-white  h-[2rem] '>bodouralmutairicoach@gmail.com</div>
+                    <div>
+                        <div>
+                            {/* <div style={{ backgroundColor: "rgba(44, 140, 140, 1)" }} className=' relative  p-[1rem] w-[6rem] bg-[rgba(44, 140, 140, 1)] rounded-full flex justify-start items-center '> */}
+                                {/* <div className=' relative z-10 rounded-full w-[100%] px-3 py-4 bg-black flex justify-center items-center '>
+                                    <img src='/Vector.png' />
+
+                                </div> */}
+                                {/* <div className='absolute rounded-full text-custom-blue text-[1rem] font-bold pr-[1rem] left-[2rem] p-2 flex items-center justify-end bg-white  h-[2rem] '>bodouralmutairicoach@gmail.com</div> */}
+                            {/* </div> */}
+                        </div>
+
+                    </div>
+
+
                 </div>
 
 
-                <div className='w-[100%] lg:w-[50%] bg-black p-6 pl-[10%] relative overflow-hidden' >
+                {/* <div className='w-[100%] lg:w-[50%] bg-black p-6 pl-[10%] relative overflow-hidden' >
                     <h1 className='text-white p-2'>NEWS LETTER</h1>
                     <h1 className='text-white font-bold p-2 text-[1.5rem]'>Subscribe To Our NewsLetter</h1>
                     <div className='flex gap-2'>
                         <input style={{ border: "2px solid gray" }} className='bg-black  w-[60%] rounded-full' />
                         <button className='bg-custom-blue px-4 py-2 text-white ' style={{ clipPath: 'polygon(8% 0%, 100% 0%, 90% 100%, 0% 100%)' }}>Subscribe</button>
                     </div>
-                </div>
+                </div> */}
 
             </div>
             <div className='hidden lg:flex  bg-custom-blue'>
-                <div className='w-[50%] bg-custom-blue relative overflow-hidden p-4 pl-[10%]'>
+                <div className='w-[70%] bg-custom-blue relative overflow-hidden p-4 pl-[10%]'>
                     <h1 className='text-white font-md p-2 text-[1.5rem]'>Mail Us Today</h1>
                     <h1 className='text-white font-semibold p-2 text-[1.5rem]'>Got A Question? We Would Be
                         Happy To Help!</h1>
@@ -61,7 +81,7 @@ const Footer = () => {
                 </div>
 
 
-                <div className='w-[50%] bg-black p-6 pl-[10%] relative overflow-hidden' style={{ clipPath: 'polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%)' }}>
+                <div className='w-[30%] bg-black p-6 pl-[10%] relative overflow-hidden' style={{ clipPath: 'polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%)' }}>
                     {/* <h1 className='text-white p-2'>NEWS LETTER</h1>
                     <h1 className='text-white font-bold p-2 text-[1.5rem]'>Subscribe To Our NewsLetter</h1> */}
                     {/* <div className='flex gap-2'>
@@ -116,7 +136,7 @@ const Footer = () => {
                     <Grid item xs={12} md={3}>
                         <div className=' flex flex-col gap-1'>
                             <h1 className='text-black text-[1.1rem] font-bold py-1'>Contact Us</h1>
-                            <div className='flex justify-center items-center gap-2'>
+                            <div className='flex justify-center md:justify-start items-center md:items-start gap-2'>
                             <img src='/div.elementor-icon-box-icon (2).png'  className='h-4' />
                             <h1 className='font-semibold  text-gray-400'>Office no:07, 04tth floor, Al Fajer complex, Tunis st, Hawally, Kuwait</h1>
                         </div>

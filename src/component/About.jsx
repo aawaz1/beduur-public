@@ -6,7 +6,7 @@ import { Navigate, useNavigate } from 'react-router-dom'
 const About = () => {
     const navigate = useNavigate();
     return (
-        <div className='p-2 flex flex-col gap-5 '>
+        <div className='p-1 pb-2 md:p-0 md:pb-4 flex flex-col gap-5 '>
            
             <div>
                 <BeduurProfile color={"custom-blue"} title1={"FINANCE CONSULTATION AND FINANCE COACH"} title2={"BEDUUR ALMUTAIRI"} title3={"Lets Grow Your Business Together"} />

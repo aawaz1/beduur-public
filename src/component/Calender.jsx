@@ -129,13 +129,13 @@ const Calender = () => {
                             </div>
                         </div>
                         <div className='flex flex-col lg:flex-row gap-4 lg:gap-12'>
-                            <div className='flex flex-col gap-2 w-[50%]'>
+                            <div className='flex flex-col gap-2  w-[100%] lg:w-[50%]'>
                                 <label className='text-md font-md' for="username">Name</label>
                                 <input className=" border border-gray-300 rounded-md p-2 w-[100%]" placeholder="Name" type="text" />
 
                             </div>
 
-                            <div className='flex flex-col gap-2 w-[50%]'>
+                            <div className='flex flex-col gap-2 w-[100%] lg:w-[50%]'>
                                 <label className='text-md font-md' for="username">Email</label>
                                 <input className="border border-gray-300 rounded-md p-2 w-[100%]" placeholder="Email" type="text" />
 
@@ -145,35 +145,35 @@ const Calender = () => {
 
                         </div>
                         <div className='flex flex-col lg:flex-row gap-4 lg:gap-12'>
-                            <div className='flex flex-col gap-2 w-[50%]'>
+                            <div className='flex flex-col gap-2 w-[100%] lg:w-[50%]'>
                                 <label className='text-md font-md' for="username">Phone</label>
                                 <input className="border border-gray-300  rounded-md p-2 w-[100%]" placeholder="Phone" type="text" />
 
                             </div>
-                            <div className='flex flex-col gap-2 w-[50%]'>
-                                <label className='text-md font-md' for="username">Session Type</label>
-                                <input className="border border-gray-300  rounded-md p-2 w-[100%]" placeholder="Session Type" type="text" />
+                            <div className='flex flex-col gap-2 w-[100%] lg:w-[50%]'>
+                                <label className='text-md font-md' for="username">Password</label>
+                                <input className="border border-gray-300  rounded-md p-2 w-[100%]" placeholder="Password" type="text" />
 
                             </div>
 
 
                         </div>
                         <div className='flex flex-col lg:flex-row gap-4 lg:gap-12'>
-                            <div className='flex flex-col gap-2 w-[50%]'>
-                                <label className='text-md font-md' for="username">Session Date</label>
-                                <input className="border border-gray-300  rounded-md p-2 w-[100%]" placeholder="Session Date" type="text" />
+                            <div className='flex flex-col gap-2 w-[100%] lg:w-[50%]'>
+                                <label className='text-md font-md' for="username">Confirm Password</label>
+                                <input className="border border-gray-300  rounded-md p-2 w-[100%]" placeholder="Confirm Password" type="text" />
 
                             </div>
-                            <div className='flex flex-col gap-2 w-[50%]'>
-                                <label className='text-md font-md' for="username">Session Time</label>
-                                <input className="border border-gray-300  rounded-md p-2 w-[100%]" placeholder="Session Time" type="text" />
+                            <div className='flex flex-col gap-2 w-[100%] lg:w-[50%]'>
+                                <label className='text-md font-md' for="username">Payment Type</label>
+                                <input className="border border-gray-300  rounded-md p-2 w-[100%]" placeholder="Payment Type" type="text" />
 
                             </div>
 
 
                         </div>
-                        <div className='flex gap-4 lg:gap-12'>
-                            <div className='flex flex-col gap-2 lg:w-[100%]'>
+                        {/* <div className='flex gap-4 lg:gap-12'>
+                            <div className='flex flex-col gap-2 w-[100%]'>
                                 <label className='text-md font-md' for="username">Payment Type</label>
                                 <input className="border border-gray-300  rounded-md p-2 w-[100%]" placeholder="Payment Type" type="text" />
 
@@ -181,9 +181,9 @@ const Calender = () => {
 
 
 
-                        </div>
+                        </div> */}
                         <div>
-                            <h1 className='text-[0.8rem] font-poppins lg:w-[100%] '>
+                            <h1 className='text-[0.8rem] font-poppins w-[100%] '>
                                 Choose the session time according to chosen date or  else your appointment will be get cancelled.
                             </h1>
                         </div>

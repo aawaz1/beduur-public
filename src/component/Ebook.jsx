@@ -63,11 +63,11 @@ const Ebook = () => {
 
                         </div>
                         <div>
-                            <h1 className='text-[1rem] font-poppins w-[18rem] md:w-[70%]'>
+                            <h1 className='text-[1rem] font-poppins w-[18rem] md:w-[100%] lg:w-[70%]'>
                                 Choose the session time according to chosen date or your else appointment will be get cancelled.
                             </h1>
                         </div>
-                        <div className=' cursor-pointer flex justify-center items-center w-[100%] md:w-[70%] bg-custom-green text-sm text-white p-3 px-22 rounded-lg'>
+                        <div className=' cursor-pointer flex justify-center items-center w-[100%] md:w-[100%] lg:w-[70%] bg-custom-green text-sm text-white p-3 px-22 rounded-lg'>
                             Get Free E-Book
                         </div>
 

@@ -7,7 +7,7 @@ import Comp from './Comp'
 
 const Services = () => {
     return (
-        <div className='p-1 md:p-2 flex flex-col gap-8 '>
+        <div className='p-1 md:p-0 md:pb-4 flex flex-col gap-8 '>
 
             <div>
                 <BeduurProfile color={"custom-blue"} title1={"FINANCE CONSULTATION AND FINANCE COACH"} title2={"BEDUUR ALMUTAIRI"} title3={"Lets Grow Your Business Together"} />

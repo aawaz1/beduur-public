@@ -8,7 +8,7 @@ import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
     return (
-        <div className=' p-1 flex flex-col  gap-8 md:p-0'>
+        <div className=' p-1 pb-2 flex flex-col  gap-8 md:p-0 md:pb-4'>
            
            <div>
                 <BeduurProfile color={"custom-blue"} title1={"FINANCE CONSULTATION AND FINANCE COACH"} title2={"BEDUUR ALMUTAIRI"} title3={"Lets Grow Your Business Together"} />
@@ -16,7 +16,7 @@ const Home = () => {
             <div className='container m-auto items-center flex  md:py-12'>
                 <div className='flex justify-center'>
                     <div className='flex flex-col gap-1 lg:flex-row lg:w-[90%] '>
-                        <div className='md:w-[80%] '>
+                        <div className='w-[100%] '>
                             <img src='/Container (1).png' className='w-[100%]' />
                         </div>
                         <div style={{ backgroundImage: "url(./beduurbg.png)" }} className='bg-custom-blue flex justify-end  w-[100%] lg:w-[30%] md:p-4 md:py-6 '>
@@ -65,7 +65,7 @@ const Home = () => {
 
 
                 </h1>
-                <div className='flex flex-col lg:flex-row gap-9 md:gap-6 p-10'>
+                <div className='flex flex-col lg:flex-row gap-9  p-10'>
                     <Comp navigation={"/membershipservice"} title1={"MemberShip"} title2={"Business Membership"} heading={"Membership services offer you programs and materials that prepare you to start a new, different phase of your life"} bgColor='#E1EDE7' />
                     <Comp navigation={"/calender"} title1={"Book"} title2={"Consultation"} heading={"We cater to the needs of diverse industries across verticals. We are a team of devoted souls We are a team of devoted souls."} bgColor='#FFFFFF'/>
                     <Comp navigation={"/ebook"} title1={"Free/Paid"} title2={"E-Books"} bgColor='#FFFDEB' heading={"We are a team of devoted souls in the area of mainframe technologies. We also develop new software We are a team of devoted souls."}/>

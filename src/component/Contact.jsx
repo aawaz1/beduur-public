@@ -52,7 +52,7 @@ const Contact = () => {
         </div>
         <div className='relative'>
             <img src='/beduurmap.jfif'  className='w-[100%] h-[40rem]'/>
-            <div className='absolute bottom-2 w-[34%] right-5  md:bottom-2 md:right-40 gap-4 rounded-md flex flex-col justify-start items-center bg-white p-2 py-4 px-16'>
+            <div className='absolute bottom-2 w-[90%] md:w-[44%] lg:w-[34%] right-5  md:bottom-2 md:right-40 gap-4 rounded-md flex flex-col justify-start items-center bg-white p-2 py-4 lg:px-16'>
                 <h1 className='text-custom-green text-md font-poppins w-[100%]'>Get In Touch</h1>
                 <h2 className='text-[1.2rem]  font-bold w-[100%]'>Need More Help  <br/> Send Us Message?</h2>
                 <input className="border border-gray-300 rounded-md p-2 w-[100%]" placeholder="Name" type="text" />

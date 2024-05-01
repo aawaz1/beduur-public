@@ -34,6 +34,7 @@ const Header = () => {
       </div>
       <div className='flex justify-between  items-center text-center gap-6 p-3 cursor-pointer'>
       <AccountCircleOutlinedIcon/>
+      <div onClick={handleChange} className='text-black  font-semibold'>{language ? "EN" : "AR"}</div>
         <div  onClick={handleClick}><MenuIcon/></div>
        
       </div>
@@ -52,10 +53,10 @@ const Header = () => {
           horizontal: 'left',
         }}
       >
-        <MenuItem onClick={handleClose}>Home</MenuItem>
-        <MenuItem onClick={handleClose}>About Us</MenuItem>
-        <MenuItem onClick={handleClose}>Services</MenuItem>
-        <MenuItem onClick={handleClose}>Contact Us</MenuItem>
+        <MenuItem onClick={() => navigate('/')}>Home</MenuItem>
+        <MenuItem onClick={() => navigate('/about')}>About Us</MenuItem>
+        <MenuItem onClick={() => navigate('/services')}>Services</MenuItem>
+        <MenuItem onClick={() => navigate('/contact')}>Contact Us</MenuItem>
         <MenuItem onClick={handleClose}>AR</MenuItem>
       </Menu>
     </div>

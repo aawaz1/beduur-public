@@ -3,7 +3,7 @@ import React from 'react'
 const BeginMembership = () => {
   return (
     <div className='w-[100%] xl:w-[80%] xl:m-[auto] flex gap-1 flex-col xl:flex-row '>
-    <div className='w-[100%] lg:w-[70%]'>
+    <div className='w-[100%] lg:w-[100%] xl:w-[100%]'>
         <img src='/Container.png' className='h-[32rem]' />
 
     </div>
